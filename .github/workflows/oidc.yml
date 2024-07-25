@@ -3,8 +3,8 @@ name: Test oidc provider
 on:
   workflow_dispatch:
 
-jobs:
-  list-s3-bucket:
+jobs: 
+  list-bucket:
   runs-on: ubuntu-latest
   defaults:
     run:
